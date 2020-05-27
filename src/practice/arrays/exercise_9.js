@@ -5,6 +5,11 @@
  * NOTE: use the some method
  */
 
-const stringLengthChecker = () => {}
+const stringLengthChecker = (array) => {
+    const checkLongerThan5 = string => {
+        return string.length > 5;
+    }
+    return array.some(checkLongerThan5);
+}
 
 export default stringLengthChecker

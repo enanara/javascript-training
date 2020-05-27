@@ -6,6 +6,13 @@
  * NOTE: use the reduce method
  */
 
-const largestNumber = () => {}
+const largestNumber = (listOfNumbwer) => {
+    const whichIsLarge = (accumulator, currentValue) => {
+        if(accumulator>currentValue){
+            return accumulator;
+        } return (currentValue)
+    };
+    return listOfNumbwer.reduce(whichIsLarge, 0);
+}
 
 export default largestNumber

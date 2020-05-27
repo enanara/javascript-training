@@ -7,6 +7,8 @@
  * NOTE: use the map method
  */
 
-const addNumberToNumbers = () => {}
+const addNumberToNumbers = (increment, listOfNumbers) => {
+    return listOfNumbers.map(number => number + increment);
+}
 
 export default addNumberToNumbers

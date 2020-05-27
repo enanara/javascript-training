@@ -8,6 +8,11 @@
  * NOTE: use the find method
  */
 
-const itemFinder = () => {}
+const itemFinder = (array, keyword) => {
+    let returnString = array.find(word => word.includes(keyword));
+    if(returnString===undefined){
+        return 'Sorry no such item found';
+    } return returnString;
+}
 
 export default itemFinder

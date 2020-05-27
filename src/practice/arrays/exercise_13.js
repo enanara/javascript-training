@@ -6,6 +6,8 @@
  * NOTE: use the filter method
  */
 
-const evenNumberFilter = () => {}
+const evenNumberFilter = (array) => {
+    return array.filter(number => number%2 === 0);
+}
 
 export default evenNumberFilter

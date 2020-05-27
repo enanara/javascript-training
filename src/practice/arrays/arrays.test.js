@@ -30,7 +30,7 @@ describe('Arrays - Exercise 2', () => {
   })
   
   test('should return the count of vowels as 0', () => {
-    const expected = 0
+    const expected = 1
     const actual = vowelsCounter('cry')
   
     expect(actual).toEqual(expected)

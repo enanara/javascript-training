@@ -6,6 +6,11 @@
  * NOTE: use the join method
  */
 
-const arrayToString = () => {}
+const arrayToString = (array, separator) => {
+    if(typeof(separator)==='undefined'){
+        return array.join('');
+    }
+    return array.join(separator);
+}
 
 export default arrayToString

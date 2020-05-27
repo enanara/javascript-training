@@ -6,6 +6,8 @@
  * NOTE: use the map method
  */
 
-const squareNumbers = () => {}
+const squareNumbers = (listOfNumbers) => {
+    return listOfNumbers.map(number => number * number);
+}
 
 export default squareNumbers

@@ -6,6 +6,14 @@
  * NOTE: Use the forEach method
  */
 
-const evenNumbersCounter = () => {}
+const evenNumbersCounter = (array) => {
+   let result = 0;
+   array.forEach(element => {
+       if(element%2 === 0){
+           result ++;
+       }
+   });
+   return result;
+}
 
 export default evenNumbersCounter

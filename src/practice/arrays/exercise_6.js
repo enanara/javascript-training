@@ -6,6 +6,9 @@
  * NOTE: use the reduce method
  */
 
-const sumOfNumbers = () => {}
+const sumOfNumbers = (listOfNumbers) => {
+    const getSum = (acc, cur) => acc+cur;
+    return listOfNumbers.reduce(getSum, 0);
+}
 
 export default sumOfNumbers
